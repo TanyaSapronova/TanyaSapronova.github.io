@@ -22,7 +22,6 @@
   .logo{
          position: relative;
          width: 100%;
-         padding: 0 15px;
          text-shadow: 2px 2px 1px rgba(0, 0, 0, .4);
          font-weight:bold;
          text-align: left;
@@ -34,6 +33,7 @@
      width: 100%;
      background: #B00909;
      margin-bottom: 30px;
+     padding: 0 15px;
      position: relative;
   }
   #menu {

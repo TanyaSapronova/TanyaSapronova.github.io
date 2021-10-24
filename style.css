@@ -29,14 +29,14 @@
          font-weight:bold;
          text-align: left;
          font-size: 25px;
-         padding:  15px;
+         
          line-height: 50px;
          color: #B00909;
         }
     .header {
      width: 100%;
 
-     padding:  7px;
+     
      background: #B00909;
      margin-bottom: 30px;
      position: relative;
@@ -223,9 +223,7 @@
    .nav-toggle {
       display: block;
    }
-   header {
-      padding: 10px 0;
-   }
+  
    .posts-list{
     margin-bottom: 0px;
    }

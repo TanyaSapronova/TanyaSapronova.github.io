@@ -217,6 +217,9 @@
    .nav-toggle {
       display: block;
    }
+     header {
+      padding: 0px;
+   }
    .posts-list{
     margin-bottom: 0px;
    }

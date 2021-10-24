@@ -217,7 +217,7 @@
       display: block;
    }
     .header {
-      padding: 15px;
+      padding: 0 15px;
    }
    .posts-list{
     margin-bottom: 0px;

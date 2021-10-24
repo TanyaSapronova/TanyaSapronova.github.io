@@ -22,7 +22,7 @@
   .logo{
          position: relative;
          width: 100%;
-         padding: 15px 0;
+         padding: 0 15px;
          text-shadow: 2px 2px 1px rgba(0, 0, 0, .4);
          font-weight:bold;
          text-align: left;

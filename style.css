@@ -33,10 +33,9 @@
          line-height: 50px;
          color: #B00909;
         }
-    .header {
+  header {
      width: 100%;
-
-     
+     padding: 15px 0;
      background: #B00909;
      margin-bottom: 30px;
      position: relative;

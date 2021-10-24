@@ -33,7 +33,6 @@
      width: 100%;
      background: #B00909;
      margin-bottom: 30px;
-     padding: 15px 0;
      position: relative;
   }
   #menu {
@@ -218,7 +217,7 @@
       display: block;
    }
     .header {
-      padding: 0 10px;
+      padding: 0 20px;
    }
    .posts-list{
     margin-bottom: 0px;

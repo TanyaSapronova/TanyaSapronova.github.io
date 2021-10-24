@@ -33,12 +33,15 @@
          line-height: 50px;
          color: #B00909;
         }
+
   header {
      width: 100%;
      padding: 15px 0;
+     box-shadow: 3px 3px 1px rgb(0 0 0 / 5%);
      background: #B00909;
-     margin-bottom: 30px;
+     margin-bottom: 20px;
      position: relative;
+   text-align: center;
   }
   
   #menu {

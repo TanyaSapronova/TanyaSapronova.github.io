@@ -1,43 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="style2.css" />
-        <script src="script.js" defer></script>
-    </head>
-
-    <body>
-        <div class="container">
-            <section id="Display-area">
-                <div class="currentInput"></div>
-                <div class="answerScreen">0</div>
-            </section>
-            <section class="keypad-btns">
-                <button type="button" class="span-two" id="clear" value="">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+    <section id="Display-area">
+    <div data-previous-operand class="answerScreen"></div>
+    <div data-current-operand class="currentInput">0</div>
+    </section>
+    <section class="keypad-btns">
+                <button data-all-clear class="span-two">
                     AC
                 </button>
-                <button type="button" class="fun_btn" id="erase" value="">
+                <button data-delete class="fun_btn">
                     DEL
                 </button> 
-                <button type="button" class="fun_btn" value="/">/</button>
-                <button type="button" class="num_btn" value="7">7</button>
-                <button type="button" class="num_btn" value="8">8</button>
-                <button type="button" class="num_btn" value="9">9</button>
-                <button type="button" class="fun_btn" value="*">x</button>
-                <button type="button" class="num_btn" value="4">4</button>
-                <button type="button" class="num_btn" value="5">5</button>
-                <button type="button" class="num_btn" value="6">6</button>
-                <button type="button" class="fun_btn" value="-">-</button>
-                <button type="button" class="num_btn" value="1">1</button>
-                <button type="button" class="num_btn" value="2">2</button>
-                <button type="button" class="num_btn" value="3">3</button>
-                <button type="button" class="fun_btn" value="+">+</button>
-                <button type="button" class="num_btn" value="00">00</button>
-                <button type="button" class="num_btn" value="0">0</button>
-                <button type="button" class="span-two" id="evaluate" value="">=</button>
-            </section>
-        </div>
-    </body>
+                <button data-operation class="fun_btn" >÷</button>
+                <button data-number >7</button>
+                <button data-number >8</button>
+                <button data-number >9</button>
+                <button data-operation class="fun_btn" >*</button>
+                <button data-number >4</button>
+                <button data-number >5</button>
+                <button data-number >6</button>
+                <button data-operation class="fun_btn" >-</button>
+                <button data-number >1</button>
+                <button data-number >2</button>
+                <button data-number >3</button>
+                <button data-operation class="fun_btn" >+</button>
+                <button data-number >0</button>
+                <button data-equals class="span-two">=</button>
+        </section>
+    </div>
+
+  </body>
 </html>

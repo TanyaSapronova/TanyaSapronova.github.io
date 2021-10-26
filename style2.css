@@ -75,7 +75,7 @@ body {
         color: #ff8800;
       }
 
-.num_btn:hover,.fun_btn:hover,.span-two:hover {
+button:hover{
     background-color: rgba(29, 29, 29, 0.979);
 }
 @media only screen and (max-width: 600px) {

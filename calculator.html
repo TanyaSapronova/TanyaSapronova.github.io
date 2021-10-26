@@ -1,38 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="style2.css" rel="stylesheet">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
     <script src="script.js" defer></script>
   </head>
   <body>
     <div class="container">
     <section id="Display-area">
-    <div data-previous-operand class="answerScreen"></div>
-    <div data-current-operand class="currentInput">0</div>
+    <div class="answerScreen"id="PreviousOperand" value=""></div>
+    <div class="currentInput" id="CurrentOperand" value="">0</div>
     </section>
     <section class="keypad-btns">
-                <button data-all-clear class="span-two">
+                <button type="button" class="span-two" id="clear" value="">
                     AC
                 </button>
-                <button data-delete class="fun_btn">
+                <button type="button" class="fun_btn" id="delete" value="">
                     DEL
                 </button> 
-                <button data-operation class="fun_btn" >÷</button>
-                <button data-number >7</button>
-                <button data-number >8</button>
-                <button data-number >9</button>
-                <button data-operation class="fun_btn" >*</button>
-                <button data-number >4</button>
-                <button data-number >5</button>
-                <button data-number >6</button>
-                <button data-operation class="fun_btn" >-</button>
-                <button data-number >1</button>
-                <button data-number >2</button>
-                <button data-number >3</button>
-                <button data-operation class="fun_btn" >+</button>
-                <button data-number >0</button>
-                <button data-equals class="span-two">=</button>
+                <button type="button" class="fun_btn" id="operation">÷</button>
+                <button type="button" id="number">7</button>
+                <button type="button" id="number">8</button>
+                <button type="button" id="number">9</button>
+                <button type="button" class="fun_btn" id="operation">*</button>
+                <button type="button" id="number">4</button>
+                <button type="button" id="number">5</button>
+                <button type="button" id="number">6</button>
+                <button type="button" class="fun_btn" id="operation">-</button>
+                <button type="button" id="number">1</button>
+                <button type="button" id="number">2</button>
+                <button type="button" id="number">3</button>
+                <button type="button" class="fun_btn" id="operation">+</button>
+                <button type="button" id="number">0</button>
+                <button type="button" class="span-two" id="equals">=</button>
         </section>
     </div>
 

@@ -71,8 +71,12 @@ body {
 .keypad-btns .fun_btn {
     color: #ff8800;
 }
+.keypad-btns .span-two {
+        grid-column: span 2;
+        color: #ff8800;
+      }
 
-.num_btn:hover,.fun_btn:hover {
+.num_btn:hover,.fun_btn:hover,.span-two:hover {
     background-color: rgba(29, 29, 29, 0.979);
 }
 @media only screen and (max-width: 600px) {

@@ -58,7 +58,9 @@
   #menu a:hover {
      color: #F5B48C;
   }
-
+  #menu.active {
+   max-height: 328px;
+}
     
     body{
     background: #f1f1f1;

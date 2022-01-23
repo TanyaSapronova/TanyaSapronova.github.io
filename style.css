@@ -127,9 +127,7 @@
      color: #7E7E7E;
      text-decoration: none;
   }
-  .footer-col:last-child {
-     float: right;
-  }
+
   aside {
    width: 33%;
    float: right;

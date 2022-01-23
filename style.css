@@ -44,7 +44,7 @@
    text-align: center;
   }
   #menu li {
-     display: inline;
+     display: inline-block;
      margin-right: 30px;
   }
   #menu a {
@@ -163,7 +163,7 @@
      text-align: center;
     }
     #menu-bottom li {
-       display: inline;
+       display: inline-block;
        margin-right: 30px;
     }
     #menu-bottom a {

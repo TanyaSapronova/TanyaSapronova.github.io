@@ -161,7 +161,7 @@
      text-align: center;
     }
     #menu-bottom li {
-       display: inline-block;
+       display: inline;
        margin-right: 30px;
     }
     #menu-bottom a {

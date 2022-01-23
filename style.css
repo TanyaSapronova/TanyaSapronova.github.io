@@ -257,29 +257,10 @@
       width: 100%;
       float: none;
    }
-   .widget{
-   
-   }
-}
- 
-@media (max-width: 480px) {
- 
-   /* убираем верхнюю и нижнюю границы и выравниваем кнопку по центру */
-   .post-footer {
-      border-top: none;
-      border-bottom: none;
-      text-align: center;
-   }
-   /* отменяем позиционирование кнопок соцсетей */
-   .post-social {
-      position: static;
-      text-align: center;
-      transform: none;
-      margin-top: 20px;
-   }
    
 }
  
+
  
  
   </style>
